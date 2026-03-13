@@ -135,7 +135,7 @@ LogiTrack Pro é uma aplicação web moderna desenvolvida para gerenciamento com
    Edite o arquivo `.env.local`:
 
    ```env
-   NEXT_PUBLIC_API_URL=http://localhost:8000/api
+   NEXT_PUBLIC_API_URL=http://localhost:8080/api
    ```
 
 4. **Inicie o servidor de desenvolvimento**
@@ -291,7 +291,7 @@ Configure no `docker-compose.yml`:
 ```yaml
 environment:
   - NODE_ENV=production
-  - NEXT_PUBLIC_API_URL=http://sua-api:8000/api
+  - NEXT_PUBLIC_API_URL=http://sua-api:8080/api
 ```
 
 ---
@@ -340,17 +340,6 @@ Para novas funcionalidades:
 ## 📄 Licença
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-## 🙏 Agradecimentos
-
-- **Next.js Team** - Framework incrível
-- **shadcn/ui** - Componentes de alta qualidade
-- **Tailwind CSS** - Framework CSS moderno
-- **Comunidade React** - Suporte e inspiração
-
----
 
 <div align="center">
 
