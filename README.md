@@ -111,8 +111,7 @@ LogiTrack Pro é uma aplicação web moderna desenvolvida para gerenciamento com
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/logitrack-frontend.git
-   cd logitrack-frontend
+   git clone https://github.com/BrunoRobMaia/LogiTrack-Frontend.git
    ```
 
 2. **Instale as dependências**
