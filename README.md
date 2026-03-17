@@ -269,31 +269,13 @@ O sistema utiliza JWT tokens para autenticação:
 1. **Build da imagem**
 
    ```bash
-   docker build -t logitrack-frontend .
-   ```
-
-2. **Execução com Docker Compose**
-
-   ```bash
    docker-compose up -d
    ```
 
-3. **Acesso**
+2. **Acesso**
    ```
    http://localhost:3000
    ```
-
-### 📋 Variáveis de Ambiente Docker
-
-Configure no `docker-compose.yml`:
-
-```yaml
-environment:
-  - NODE_ENV=production
-  - NEXT_PUBLIC_API_URL=http://sua-api:8080/api
-```
-
----
 
 ## 🤝 Contribuição
 
